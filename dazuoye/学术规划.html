@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font_jbx3hhoqje/iconfont.css">
+    <title>学术规划</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        .shell {
+            position: fixed;
+            width: 50px;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(17, 24, 39);
+            border-radius: 10px;
+            transition: .3s;
+            overflow: hidden;
+            z-index: 99;
+        }
+        .box {
+            display: block;
+            height: 15%;
+            width: 85%;
+            margin: 8px;
+            border-radius: 10px;
+            position: relative;
+            transition: .3s;
+            color: rgb(160, 160, 175);
+        }
+        .box i {
+            font-size: 30px;
+            position: absolute;
+            margin: 10px 0 0 6px;
+        }
+
+        .box:nth-child(1)::before,
+        .box:nth-child(5)::before{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: rgb(55, 65, 81);
+            position: absolute;
+            bottom: -10px;
+        }
+
+        .box span{
+            position: relative;
+            top: 12px;
+            left: 40px;
+            font: 250 10px '';
+            opacity: 0;
+            transition: .1s;
+        }
+        .shell:hover{
+            width: 135px;
+        }
+        .box:hover{
+            background-color: rgb(55, 65, 81);
+        }
+        .shell:hover span{
+            opacity: 1;
+        }
+        .box:hover{
+            color: #fff;
+        }
+        body{
+            background-image: url(image/winter.JPG);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .title{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 900px;
+            height: auto;
+            margin: auto;
+            padding: 15px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:rgba(255,255,255,0.7);
+            border-radius: 10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+<div class="shell">
+    <a href="首页.html" target="_self" class="box"><i class="iconfont icon-cangku-01"></i><span>首页</span></a>
+    <a href="关系图.html" target="_self" class="box"><i class="iconfont icon-lianjie-01"></i><span> 关系图</span></a>
+    <a href="链接.html" target="_self" class="box"><i class="iconfont icon-lianjie-03"></i><span>链接</span></a>
+    <a href="专业认识.html" target="_self" class="box"><i class="iconfont icon-shouye"></i><span>专业认识</span></a>
+    <a href="学术规划.html" target="_self" class="box"><i class="iconfont icon-wenzhang"></i><span>学术规划</span></a>
+</div>
+<div class="title">
+    <h1>学术规划</h1>
+    <p>作为一名大二的学生，四年的大学生活已经过去了一小半，与大一的同学不同，已经到了需要考虑将来的时间，需要仔细规划自己未来的学业与生活。</p>
+    <p>首先要考虑的是完成大二的相关的课程。虽然因为疫情的影响，期末考试被延期举行，但仍然不能对此掉以轻心，要在下学期开学时，一方面完成下学期应该完成的学习，另一方面也要同时做好复习的工作，已取得更好的成绩。</p>
+    <p>其次，考研的时间已经不算远了，在今年年末也应该开始着手准备复习备战考研的有关事宜。因此要在完成大三大四的课程的同时，积极投入到对考研的复习准备当中去，力争能一次就考取满意的学校。</p>
+    <p>最后对于毕业，虽然还有相对较长的一段时间，但在这段时间中希望自己能够积攒一定的相关工作的实习经验，不论将来是能考取研究生，还是无法考学不得不寻找工作的时候，这些实习的经验都能为将来争取更好的机会打下基础。</p>
+</div>
+</body>
+
+</html>
